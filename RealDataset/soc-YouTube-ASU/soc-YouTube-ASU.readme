@@ -1,0 +1,9 @@
+YouTube is a video-sharing website on which users can upload, share, and view videos.
+
+This is the data set crawled from YouTube ( http://www.youtube.com ). YouTube is a video-sharing website on which users can upload, share, and view videos. 
+This contains the friendship network crawled and group memberships. For easier understanding, all the contents are organized in CSV file format.
+
+'.edges' is the friendship network among the users. The user's friends are represented using edges. Since the network is symmetric, each edge is represented only once. Here is an example. 
+
+
+'.node_labels' is the user-group membership. In each line, the first entry represents user, and the 2nd entry is the group index. 
